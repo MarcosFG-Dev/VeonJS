@@ -22,6 +22,20 @@ Para comprar, tirar dúvidas ou solicitar suporte, entre em contato pelo Discord
 
 ---
 
+## Demonstração em vídeo
+
+Preparamos um vídeo demonstrativo mostrando uma das primeiras versões funcionais do VeonJS em ação:
+
+https://www.youtube.com/watch?v=UFXXDSUhd8I&t=3s
+
+O vídeo apresenta a base do sistema: criação e recarregamento de mini-plugins Java diretamente no servidor, sem precisar reiniciar tudo a cada alteração.
+
+Desde essa demonstração, o projeto recebeu várias melhorias importantes, incluindo suporte a pacotes `.mplugin`, dependências Maven, carregamento automático, melhorias de segurança, hot-reload mais robusto e recursos voltados para uso comercial.
+
+Ou seja, o vídeo serve como uma prévia visual do conceito, enquanto a versão atual está mais completa, refinada e preparada para uso profissional.
+
+---
+
 ## Por que usar o VeonJS?
 
 Com o VeonJS, você pode editar seu mini-plugin Java, salvar o arquivo e recarregar diretamente no servidor:
