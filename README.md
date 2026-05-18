@@ -1,8 +1,8 @@
 # VeonJS
 
-> **Crie, teste e distribua mini-plugins Java para Minecraft com muito mais velocidade.**
+> **Crie, teste e distribua mini-plugins Java e plugins reais para Minecraft com muito mais velocidade.**
 
-O **VeonJS** é um runtime moderno para servidores **Paper/Spigot** que permite criar mini-plugins em Java usando a API real do Bukkit/Paper, com suporte a hot-reload, dependências Maven, comandos, eventos, configs, menus GUI e distribuição em pacotes protegidos `.mplugin`.
+O **VeonJS** é um runtime moderno para servidores **Paper/Spigot** que permite criar mini-plugins em Java usando a API real do Bukkit/Paper, com suporte a hot-reload, dependências Maven, comandos, eventos, configs, menus GUI, criação de plugins reais e distribuição em pacotes protegidos `.mplugin`.
 
 Ele foi pensado para desenvolvedores, donos de servidores e equipes que querem criar sistemas Minecraft profissionais sem ficar preso ao ciclo tradicional de compilar JAR, desligar servidor, copiar arquivo e reiniciar tudo a cada alteração.
 
@@ -34,6 +34,8 @@ Sem reiniciar o servidor inteiro.
 Sem ficar recompilando manualmente o projeto toda hora.
 Sem perder tempo em testes simples.
 
+Além disso, o VeonJS também pode ajudar na criação de **plugins reais**, com estrutura preparada, `plugin.yml`, comandos, permissões, resources e organização profissional para exportação e distribuição.
+
 O foco é acelerar o desenvolvimento mantendo o poder do Java e da API real do Minecraft.
 
 ---
@@ -41,6 +43,7 @@ O foco é acelerar o desenvolvimento mantendo o poder do Java e da API real do M
 ## Principais recursos
 
 - **Hot-reload de mini-plugins Java**
+- **Criação de plugins reais para Paper/Spigot**
 - **Suporte à API Bukkit/Spigot/Paper**
 - **Mini-plugins com múltiplas classes**
 - **Comandos e permissões dinâmicas**
@@ -48,6 +51,7 @@ O foco é acelerar o desenvolvimento mantendo o poder do Java e da API real do M
 - **Tasks e scheduler seguro**
 - **Menus GUI como plugins reais**
 - **Configs e resources próprios por mini-plugin**
+- **Geração de estrutura para IDE e exportação**
 - **Maven Dependency Runtime**
 - **GitHub Raw Source Loader**
 - **Formato `.mplugin` para distribuição protegida**
@@ -83,6 +87,29 @@ Exemplo de comando para recarregar:
 ```text
 /veonjs reload MeuPlugin
 ```
+
+---
+
+## Plugins reais com VeonJS
+
+O VeonJS não serve apenas para scripts simples ou testes rápidos. Ele também foi pensado para quem quer criar **plugins reais**, com comportamento próximo de um plugin tradicional de mercado.
+
+Com ele, você pode desenvolver sistemas completos usando:
+
+- comandos Bukkit reais;
+- permissões;
+- eventos/listeners;
+- menus GUI;
+- configs próprias;
+- resources;
+- múltiplas classes;
+- dependências externas;
+- estrutura pronta para IDE;
+- exportação para distribuição.
+
+Na prática, o VeonJS permite começar rápido como mini-plugin e depois evoluir para um pacote distribuível, seja em formato `.mplugin` ou em estrutura preparada para um plugin independente.
+
+Isso torna o projeto ideal tanto para desenvolvimento rápido quanto para criação de produtos comerciais para servidores Minecraft.
 
 ---
 
@@ -200,6 +227,7 @@ O VeonJS é ideal para:
 - Projetos comerciais de Minecraft
 - Servidores que precisam testar features rapidamente
 - Criadores que querem vender mini-plugins em formato `.mplugin`
+- Devs que querem criar plugins reais com menos fricção no ciclo de desenvolvimento
 
 ---
 
@@ -216,6 +244,7 @@ O VeonJS é ideal para:
 - Comandos administrativos
 - Sistemas de eventos
 - Mini-plugins privados para servidores
+- Plugins reais preparados para uso comercial
 
 ---
 
@@ -278,4 +307,4 @@ Contato para compra e suporte:
 
 ## VeonJS
 
-Java mini-plugins com hot-reload, dependências Maven e distribuição protegida para servidores Minecraft.
+Java mini-plugins, plugins reais, hot-reload, dependências Maven e distribuição protegida para servidores Minecraft.
